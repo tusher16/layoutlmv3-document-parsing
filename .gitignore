@@ -1,15 +1,22 @@
 # =========================
-# Data (DO NOT PUSH)
+# DATA (IGNORE TRAIN/TEST IMAGES)
 # =========================
-data/
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.tif
+data/train/
+data/test/
+
+# If you later add validation
+data/val/
 
 # =========================
-# Python
+# MODEL WEIGHTS
+# =========================
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# =========================
+# PYTHON CACHE
 # =========================
 __pycache__/
 *.pyc
@@ -17,32 +24,25 @@ __pycache__/
 *.pyd
 
 # =========================
-# Virtual Environment
-# =========================
-venv/
-.env/
-.env
-
-# =========================
-# Jupyter
+# JUPYTER
 # =========================
 .ipynb_checkpoints/
 
 # =========================
-# MacOS
+# VIRTUAL ENV
 # =========================
-.DS_Store
+venv/
+.env
+.env/
 
 # =========================
-# Model Weights
-# =========================
-*.pt
-*.pth
-*.bin
-
-# =========================
-# Logs
+# LOGS
 # =========================
 logs/
 *.log
+
+# =========================
+# MACOS
+# =========================
+.DS_Store
 
