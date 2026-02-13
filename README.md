@@ -3,7 +3,7 @@
 [![Framework](https://img.shields.io/badge/PyTorch-2.1-%23EE4C2C.svg?style=flat&logo=pytorch)](https://pytorch.org/)
 [![Model](https://img.shields.io/badge/Model-LayoutLMv3-blue)](https://huggingface.co/microsoft/layoutlmv3-base)
 [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![CI/CD](https://img.shields.io/github/actions/workflow/status/tusher16/historical-layout-analysis/mlops_pipeline.yml?label=Pipeline)](https://github.com/yourusername/historical-layout-analysis/actions)
+[![CI/CD](https://img.shields.io/github/actions/workflow/status/tusher16/historical-layout-analysis/mlops_pipeline.yml?label=Pipeline)](https://github.com/tusher16/layoutlmv3-document-parsing/actions)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## 📖 Abstract
