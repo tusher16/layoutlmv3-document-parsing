@@ -1,11 +1,12 @@
 # =========================
-# DATA (IGNORE TRAIN/TEST IMAGES)
+# IGNORE ALL IMAGE FILES
 # =========================
-data/train/
-data/test/
-
-# If you later add validation
-data/val/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
 
 # =========================
 # MODEL WEIGHTS
@@ -14,6 +15,13 @@ data/val/
 *.pth
 *.bin
 *.ckpt
+
+# =========================
+# DATA FILES (optional large formats)
+# =========================
+*.zip
+*.tar
+*.gz
 
 # =========================
 # PYTHON CACHE
